@@ -1,77 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>OrderFood</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplotel Hotel Assignment</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <header>
+        <nav class="top-nav">
+            <ul class="nav-items">
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item"><a href="/">Order</a></li>
+                <li class="nav-item"><a href="/">Food</a></li>
+                <li class="nav-item"><a href="/">Restaurant</a></li>
+                <li class="nav-item"><a href="/">Testimonials</a></li>
+                <li class="nav-item"><a href="/">Contact Us</a></li>
+                <li class="nav-item">
+                    <button type="button" class="menu-btn">
+                        <img src="./images/menu-bar.png" alt="Menu">
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="intro-section">
+            <div class="intro-text">
+                <h1 class="main-heading">Lorem ipsum</h1>
+                <p class="paragraph-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                    id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                    rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                    dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                    Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                    Sed pulvinar, massa ac porta viverra.
+                </p>
+                <button class="primary-action" type="button">Click Me</button>
+            </div>
 
-<header class="top-bar">
-  <ul class="nav-links">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Order</a></li>
-    <li><a href="#">Food</a></li>
-    <li><a href="#">Restaurant</a></li>
-    <li><a href="#">Testimonials</a></li>
-    <li><a href="#">Contact Us</a></li>
-    <li class="menu-toggle">
-      <img src="./images/menu-bar.png" alt="menu">
-    </li>
-  </ul>
-</header>
+            <div class="intro-image">
+                <img src="./images/pexels-robin-stickel-70497.jpg" alt="Image">
+            </div>
+        </section>
 
+        <section class="info-section">
+            <div class="image-layout">
+                <img class="layout-img" src="./images/pexels-rachel-claire-6752433.jpg" alt="">
+                <img class="layout-img" src="./images/pexels-mister-mister-3434523.jpg" alt="">
+                <img class="layout-img" src="./images/pexels-eva-bronzini-6141651.jpg" alt="">
+            </div>
 
-<section class="intro-page">
+            <div class="info-box">
+                <div class="small-heading">Lorem ipsum</div>
+                <h1 class="section-heading">lorem ipsum set ademir</h1>
 
-  <div class="text-area">
-    <h1>LOREM IPSUM</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vivamus id est vitae dolor rhoncus tristique. Maecenas metus
-      quam, rhoncus euismod lorem in, sollicitudin viverra eros.
-      Donec dictum luctus quam ut tristique. Curabitur nec faucibus
-      purus. Quisque congue sem nec justo mollis, in tincidunt erat
-      pretium. Sed pulvinar, massa ac porta viverra.
-    </p>
-
-    <button class="action-btn">Click Me</button>
-  </div>
-
-  <div class="image-area">
-    <img src="./images/pexels-robin-stickel-70497.jpg" alt="food">
-  </div>
-
-</section>
-
-
-<section class="details-page">
-
-  <div class="photo-layout">
-    <img src="./images/pexels-eva-bronzini-6141651.jpg" alt="">
-    <img src="./images/pexels-rachel-claire-6752433.jpg" alt="">
-    <img src="./images/pexels-mister-mister-3434523.jpg" alt="">
-  </div>
-
-  <div class="info-card">
-    <p class="label-text">LOREM IPSUM</p>
-    <h2>LOREM IPSUM<br>SET ADEMIR</h2>
-    <a href="#" class="card-link">
-      Click <img src="./images/icons8-arrow-30.png" alt="">
-    </a>
-  </div>
-
-</section>
-
-<script>
-document.querySelector(".menu-toggle").addEventListener("click", () => {
-  document.querySelector(".nav-links").classList.toggle("open");
-});
-</script>
+                <button type="button" class="link-btn">
+                    <span>Click</span>
+                    <img class="icon-arrow" src="./images/icons8-arrow-30.png" alt="">
+                </button>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
