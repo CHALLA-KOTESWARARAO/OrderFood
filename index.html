@@ -64,7 +64,19 @@
                 </button>
             </div>
         </section>
-    </main>
-
+    </main>      
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const menuBtn = document.querySelector('.menu-btn');
+      const navItems = document.querySelector('.nav-items');
+  
+      if (menuBtn && navItems) {
+        menuBtn.addEventListener('click', () => {
+          navItems.classList.toggle('active');
+        });
+      }
+    });
+  </script>
+
 </html>
